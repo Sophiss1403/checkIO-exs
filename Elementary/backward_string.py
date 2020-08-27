@@ -1,13 +1,8 @@
-#!/usr/bin/env checkio --domain=py run backward-string
-
-# You should return a given string in reverse order.
-# 
-# Input:A string.
-# 
-# Output:A string.
-# 
-# 
-# END_DESC
+'''
+You should return a given string in reverse order.
+Input:A string.
+Output:A string.
+'''
 
 def backward_string(val: str) -> str:
     # your code here
