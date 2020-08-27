@@ -6,13 +6,9 @@ Precondition:The line consists only from alphabetical symbols and spaces.
 '''
 
 def backward_string_by_word(text: str) -> str:
-    algo = text.split(' ')
-    result = [ ]
-    for word in algo:
-        word = word[::-1]
-        result.append(word)
 
-    return ' '.join(result)
+    return ' '.join([word[::-1] for word in text.split(' ')])
+
 
 if __name__ == '__main__':
     print("Example:")
