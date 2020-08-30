@@ -1,2 +1,5 @@
 
-Elementary/acceptable_password_i.py
+.venv
+.git
+checkio.ini
+*.py
